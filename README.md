@@ -1,4 +1,4 @@
-# ROCK-PAPER-SCISSOR Game
+# ROCK-PAPER-SCISSORS Game
 
 ![Game Screenshot](Images/rock-paper-scissors.png)
 
