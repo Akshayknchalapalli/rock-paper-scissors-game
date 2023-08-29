@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <!-- Link to the external CSS file for styling -->
+  <link rel="stylesheet" href="styles/rock-paper-scissors.css">
+</head>
+<body>
+  <!-- Title of the Rock Paper Scissors game -->
+  <p class="title">Rock Paper Scissors</p>
+
+  <!-- Buttons for player's moves: Rock, Paper, and Scissors -->
+  <button class="move-button js-rock-button">
+    <!-- Icon for the Rock move -->
+    <img src="images/rock-emoji.png" class="move-icon">
+  </button>
+
+  <button class="move-button js-paper-button">
+    <!-- Icon for the Paper move -->
+    <img src="images/paper-emoji.png" class="move-icon">
+  </button>
+
+  <button class="move-button js-scissors-button">
+    <!-- Icon for the Scissors move -->
+    <img src="images/scissors-emoji.png" class="move-icon">
+  </button>
+
+  <!-- Paragraph to display the game result -->
+  <p class="js-result result"></p>
+  
+  <!-- Paragraph to display the player's and computer's moves -->
+  <p class="js-moves"></p>
+  
+  <!-- Paragraph to display the game score (wins, losses, ties) -->
+  <p class="js-score score"></p>
+
+  <!-- Button to reset the game score -->
+  <button class="reset-score-button js-reset-score-button">
+    Reset Score
+  </button>
+
+  <!-- Button to toggle auto-play -->
+  <button class="auto-play-button js-auto-play-button">
+    Auto Play
+  </button>
+
+  <!-- Paragraph to display the reset confirmation message -->
+  <p class="js-reset-confirmation"></p>
+  
+  <!-- Include the JavaScript file to add interactivity to the game -->
+  <script src="scripts/rock-paper-scissors.js"></script>
+</body>
+</html>
