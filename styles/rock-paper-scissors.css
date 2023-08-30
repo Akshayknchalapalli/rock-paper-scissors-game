@@ -29,7 +29,7 @@ body {
   margin-top: 60px;
 }
 .reset-score-button,
-.auto-play-button {
+.auto-play-button , .reset-confirm-button {
   background-color: white;
   border: none;
   font-size: 15px;
